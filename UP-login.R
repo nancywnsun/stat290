@@ -4,8 +4,8 @@
 library(RCurl)
 library(rjson)
 
-username <- "nancywnsun@gmail.com"
-pw <- "RforUP"
+username <- ""
+pw <- ""
 service <- "nudge"
 
 test = getURL(url = paste("https://jawbone.com/user/signin/login", "?email=",username, "&pwd=", pw, "&service=",service, sep=""), verbose=TRUE)
